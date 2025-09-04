@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#808080</color>
+    <color name="green">#00FF0B</color>
+    <color name="orange">#FF3F00</color>
+    <color name="red">#FF0000</color>
+    <color name="progressFillColor">#88FF9800</color>
+    <color name="defaultCardBackgroundColor">#55FFFFFF</color>
+    <color name="goalReachedColor">#FF4CAF50</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="test1">#2B2E33</color>
+    <color name="interesting">#B6BCDB</color>
+    <color name="income_green">#39FF14</color>
+    <color name="expense_red">#FF2F00</color>
+</resources>

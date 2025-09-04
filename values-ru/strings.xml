@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZrimaFinanceIt</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="select_account_prompt">Выберите Аккаунт</string>
+    <string name="select_card_prompt">Выберите карту</string>
+    <string name="select_type_prompt">Выберите тип</string>
+    <string name="contact_me_message">Сообщение:</string>
+    <string name="return_button">Вернуться</string>
+    <string name="profile">Профиль</string>
+    <string name="username_profile">Имя пользователя:</string>
+    <string name="first_name_profile">Имя:</string>
+    <string name="last_name_profile">Фамилия:</string>
+    <string name="birth_date_profile">Дата рождения:</string>
+    <string name="card_number">Номер карты</string>
+    <string name="select_card_expiration_date">Выберите дату окончания срока карты</string>
+    <string name="submit_button">Подтвердить</string>
+    <string name="goals_tracker">Цели</string>
+    <string name="add_an_account">Выберите аккаунт</string>
+    <string name="create_a_new_goal">Создать новую цель</string>
+    <string name="reports">Отчёты</string>
+    <string name="add_a_transaction">Добавить транзакцию</string>
+    <string name="settings">Настройки</string>
+    <string name="account_name">Имя аккаунт</string>
+    <string name="account_type">Тип аккаунта</string>
+    <string name="select_month_and_year">Выберите месяц и год</string>
+    <string name="transaction_amount">Сумма транзакции</string>
+    <string name="transaction_category">Категория транзакции</string>
+    <string name="transaction_date_and_time">Дата и время транзакции</string>
+    <string name="cards">Карты</string>
+    <string name="add_a_card">Добавить карту</string>
+    <string-array name="time_filters">
+        <item>Всё</item>
+        <item>Сегодня</item>
+        <item>На этой неделе</item>
+        <item>В этом месяце</item>
+        <item>В этом году</item>
+    </string-array>
+    <string-array name="transaction_filters">
+        <item>Всё</item>
+        <item>Расходы</item>
+        <item>Доходы</item>
+        <item>Главные подписки</item>
+    </string-array>
+
+    <string-array name="filter_modes">
+        <item>Сумма</item>
+        <item>Количество</item>
+    </string-array>
+    <string-array name="chart_types">
+        <item>Столбчатая</item>
+        <item>Круговая</item>
+        <item>Точечная-Линейная</item>
+    </string-array>
+    <string name="sort_by_title">Сортировать по</string>
+    <string-array name="sort_options">
+        <item>Сумма (от Большего к Меньшему)</item>
+        <item>Сумма (от Меньшего к Большему)</item>
+        <item>Дата (Новейшие)</item>
+        <item>Дата (Старейшие)</item>
+    </string-array>
+
+    <string name="select_interval_prompt">Выберите интервал (Дневной, Недельный, Так далее.)</string>
+    <string name="contact_me_topic">Тема</string>
+    <string name="first_name_required">First Name (Required)</string>
+    <string name="last_name_optional">Last Name (Optional)</string>
+    <string name="birth_date_required">Birth Date (Required)</string>
+    <string name="username_required">Username (Required)</string>
+    <string name="password_required">Password (Required)</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="password">Пароль</string>
+    <string name="username">Имя Пользователя</string>
+    <string name="sign_in">Войти</string>
+    <string name="edit_profile">Редактировать Профиль</string>
+    <string name="enter_first_name">Введите имя</string>
+    <string name="save">Сохранить</string>
+    <string name="enter_last_name">Введите фамилию</string>
+    <string name="change_password">Поменять Пароль</string>
+    <string name="current_password">Текущий Пароль</string>
+    <string name="new_password">Новый Пароль</string>
+    <string name="confirm_new_password">Подтвердить Новый Пароль</string>
+    <string name="select_language">Выбрать язык:</string>
+    <string name="first_name_required_edit">Имя (Обязательно)</string>
+    <string name="last_name_optional_edit">Фамилия (Опционально)</string>
+    <string name="bar_chart">Столбчатая</string>
+    <string name="pie_chart">Круговаяа</string>
+    <string name="dot_chart">Точечно-Линейная</string>
+    <string name="sort_transactions">Соритровать Транзакции</string>
+    <string name="remember_me">Запомни меня</string>
+    <string name="select_category_prompt">Выберите категорию</string>
+    <string name="accounts">Аккаунты</string>
+    <string name="logout">Выйти</string>
+    <string name="contact_me">Связаться со мной</string>
+    <string name="credit">Авторство</string>
+    <string name="guide">Руководство</string>
+    <string name="new_goal">Новая Цель</string>
+    <string name="goal_name">Название Цели</string>
+    <string name="target_amount">Целевая Сумма</string>
+    <string name="goal_description_optional">Описание Цели (опционально)</string>
+    <string name="due_date_optional">Запланированная Дата (опционально)</string>
+    <string name="record_voice_note">Записать Голосовую Заметку</string>
+    <string name="save_goal">Сохранить Цель</string>
+    <string name="apply_filters">Применить Фильтры</string>
+    <string name="are_you_sure_you_want_to_log_out">Вы уверены что хотите выйти?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="logged_out_successfully">Успешно вышли</string>
+    <string name="balance">Счёт</string>
+    <string name="first_name_updated_successfully">Имя успешно изменено</string>
+    <string name="error_updating_first_name">Ошибка изменить первое имя</string>
+    <string name="last_name_updated_successfully">Фамилия успешна изменена</string>
+    <string name="error_updating_last_name">Ошибка изменить фамилию</string>
+    <string name="income">Доходы:</string>
+    <string name="expenses">Расходы:</string>
+    <string name="first_name_cannot_be_empty">Имя не может быть пустым</string>
+    <string name="optional_description">Опциональное Описание:</string>
+    <string name="new_transaction">Новая Транзакция</string>
+    <string name="regular_payment_subscription">Регулярный Платёж/Подписка</string>
+    <string name="bank_organization">Банк/Организация</string>
+    <string name="stop_recording">Остановить запись</string>
+    <string name="unable_to_access_storage">Невозможно получить доступ к хранилищу</string>
+    <string name="recording_failed">Запись не удалась</string>
+    <string name="please_fill_all_required_fields">Пожалуйста, заполните все обязательные поля</string>
+    <string name="invalid_amount">Неверная сумма</string>
+    <string name="goal_saved_successfully">Цель успешно сохранена</string>
+    <string name="failed_to_save_the_goal">Не удалось сохранить цель</string>
+    <string name="account">Счёт</string>
+    <string name="card">Карта</string>
+    <string name="type">Тип</string>
+    <string name="category">Категория</string>
+    <string name="amount">Сумма</string>
+    <string name="date">Дата</string>
+    <string name="description">Описание</string>
+    <string name="subscription">Подписка</string>
+    <string name="failed_to_delete_voice_note_file">Не удалось удалить файл голосовой заметки</string>
+    <string name="failed_to_delete_goal">Не удалось удалить цель</string>
+    <string name="goal">Цель</string>
+    <string name="deleted">Удалено</string>
+    <string name="goal_editing">Изменение цели</string>
+    <string name="due_date_cleared">Срок выполнения очищен</string>
+    <string name="all_required_fields_must_be_completed">Все обязательные поля должны быть заполнены</string>
+    <string name="goal_updated">Цель обновлена</string>
+    <string name="update_failed">Обновление не удалось</string>
+    <string name="cancel">Отмена</string>
+    <string name="update">Обновить</string>
+    <string name="select_an_option">Выберите опцию</string>
+    <string name="enter_a_valid_amount">Введите корректную сумму</string>
+    <string name="invalid_amount_entered">Введена некорректная сумма</string>
+    <string name="select_a_valid_interval">Выберите корректный интервал</string>
+    <string name="transaction_updated">Транзакция обновлена</string>
+    <string name="you_need_to_create_a_financial_account_first">Сначала вам нужно создать финансовый аккаунт</string>
+    <string name="select_a_valid_amount">Выберите корректную сумму</string>
+    <string name="select_a_valid_type">Выберите корректный тип</string>
+    <string name="select_a_valid_category">Выберите корректную категорию</string>
+    <string name="select_a_date_and_a_time">Выберите дату и время</string>
+    <string name="transaction_saved">Транзакция сохранена</string>
+    <string name="transaction_failed">Транзакция не удалась</string>
+    <string name="transaction_not_found">Транзакция не найдена</string>
+    <string name="choose_an_action">Выберите действие</string>
+    <string name="delete_subscription">Удалить подписку</string>
+    <string name="deleting_this_subscription_will_">Удаление этой подписки также удалит все связанные с ней транзакции. Вы хотите продолжить?</string>
+    <string name="subscription_and_its_sub_subscriptions_were_deleted">Подписка и все связанные с ней транзакции были удалены</string>
+    <string name="failed_to_delete_subscription">Не удалось удалить подписку</string>
+    <string name="transaction_deleted">Транзакция удалена</string>
+    <string name="failed_to_delete_transaction">Не удалось удалить транзакцию</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="birthdate">Дата рождения</string>
+    <string name="microphone_permission_not_granted">Разрешение на использование микрофона не предоставлено</string>
+    <string name="edit_account">Редактировать Аккаунт</string>
+</resources>

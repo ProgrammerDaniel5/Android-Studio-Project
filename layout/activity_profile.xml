@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background"
+    tools:context=".ProfileActivity">
+
+    <Button
+        android:id="@+id/profileReturnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/return_button"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_marginEnd="5dp" />
+
+    <TextView
+        android:id="@+id/profileHeaderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="profileHeader"
+        android:text="@string/profile"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/profileUsernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username_profile"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/profileFirstNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_name_profile"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/profileLastNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/last_name_profile"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/profileBirthDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birth_date_profile"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/editProfileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_profile"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

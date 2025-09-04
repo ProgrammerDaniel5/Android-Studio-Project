@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">ZrimaFinanceIt</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="select_account_prompt">Select an account</string>
+    <string name="select_card_prompt">Select a card</string>
+    <string name="select_type_prompt">Select a type</string>
+    <string name="contact_me_message">Message</string>
+    <string name="return_button">Return</string>
+    <string name="profile">Profile</string>
+    <string name="username_profile">Username:</string>
+    <string name="first_name_profile">First name:</string>
+    <string name="last_name_profile">Last name:</string>
+    <string name="birth_date_profile">Birth date:</string>
+    <string name="card_number">Card number</string>
+    <string name="select_card_expiration_date">Select card expiration date</string>
+    <string name="submit_button">Submit</string>
+    <string name="goals_tracker">Goals</string>
+    <string name="add_an_account">Add an account</string>
+    <string name="create_a_new_goal">Create a new goal</string>
+    <string name="reports">Reports</string>
+    <string name="add_a_transaction">Add a transaction</string>
+    <string name="settings">Settings</string>
+    <string name="account_name">Account name</string>
+    <string name="account_type">Account type</string>
+    <string name="select_month_and_year">Select month and year</string>
+    <string name="transaction_amount">Transaction amount</string>
+    <string name="transaction_category">Transaction category</string>
+    <string name="transaction_date_and_time">Transaction date and time</string>
+    <string name="cards">Cards</string>
+    <string name="add_a_card">Add a card</string>
+    <string-array name="time_filters">
+        <item>All</item>
+        <item>Today</item>
+        <item>This Week</item>
+        <item>This Month</item>
+        <item>This Year</item>
+    </string-array>
+    <string-array name="transaction_filters">
+        <item>All</item>
+        <item>Expenses</item>
+        <item>Incomes</item>
+        <item>Parent Subscriptions</item>
+    </string-array>
+    <string-array name="filter_modes">
+        <item>Amount</item>
+        <item>Count</item>
+    </string-array>
+    <string-array name="chart_types">
+        <item>Bar</item>
+        <item>Pie</item>
+        <item>Dot-Linear</item>
+    </string-array>
+    <string name="sort_by_title">Sort By</string>
+    <string-array name="sort_options">
+        <item>Amount (High to Low)</item>
+        <item>Amount (Low to High)</item>
+        <item>Date (Newest)</item>
+        <item>Date (Oldest)</item>
+    </string-array>
+
+    <string name="select_interval_prompt">Select Interval (Daily, Weekly, etc.)</string>
+    <string name="contact_me_topic">Topic</string>
+    <string name="first_name_required">First Name (Required)</string>
+    <string name="last_name_optional">Last Name (Optional)</string>
+    <string name="birth_date_required">Birth Date (Required)</string>
+    <string name="username_required">Username (Required)</string>
+    <string name="password_required">Password (Required)</string>
+    <string name="sign_up">Sign up</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="save">Save</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="select_language">Select Language:</string>
+    <string name="first_name_required_edit">First Name (Required)</string>
+    <string name="last_name_optional_edit">Last Name (Optional)</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="dot_chart">Dot Chart</string>
+    <string name="sort_transactions">Sort Transactions</string>
+    <string name="remember_me">Remember me</string>
+    <string name="select_category_prompt">Select a category</string>
+    <string name="accounts">Accounts</string>
+    <string name="logout">Logout</string>
+    <string name="contact_me">Contact-Me</string>
+    <string name="credit">Credit</string>
+    <string name="guide">Guide</string>
+    <string name="new_goal">New Goal</string>
+    <string name="goal_name">Goal Name</string>
+    <string name="target_amount">Target Amount</string>
+    <string name="goal_description_optional">Goal Description (optional)</string>
+    <string name="due_date_optional">Due Date (optional)</string>
+    <string name="record_voice_note">Record Voice Note</string>
+    <string name="save_goal">Save Goal</string>
+    <string name="apply_filters">Apply Filters</string>
+    <string name="are_you_sure_you_want_to_log_out">Are you sure you want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="logged_out_successfully">Logged out successfully</string>
+    <string name="welcome">Welcome</string>
+    <string name="balance">Balance</string>
+    <string name="first_name_updated_successfully">First name updated successfully</string>
+    <string name="error_updating_first_name">Error updating first name</string>
+    <string name="last_name_updated_successfully">Last name updated successfully</string>
+    <string name="error_updating_last_name">Error updating last name</string>
+    <string name="income">Income:</string>
+    <string name="expenses">Expenses:</string>
+    <string name="first_name_cannot_be_empty">First name cannot be empty</string>
+    <string name="optional_description">Optional Description:</string>
+    <string name="new_transaction">New transaction</string>
+    <string name="regular_payment_subscription">Recurring Payment/Subscription</string>
+    <string name="bank_organization">Bank/Organization</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="unable_to_access_storage">Unable to access storage</string>
+    <string name="recording_failed">Recording failed</string>
+    <string name="please_fill_all_required_fields">Please fill all required fields</string>
+    <string name="invalid_amount">Invalid amount</string>
+    <string name="goal_saved_successfully">Goal saved successfully</string>
+    <string name="failed_to_save_the_goal">Failed to save the goal</string>
+    <string name="account">Account</string>
+    <string name="card">Card</string>
+    <string name="type">Type</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="subscription">Subscription</string>
+    <string name="failed_to_delete_voice_note_file">Failed to delete voice note file</string>
+    <string name="failed_to_delete_goal">Failed to delete goal</string>
+    <string name="goal">Goal</string>
+    <string name="deleted">deleted</string>
+    <string name="goal_editing">Goal Editing</string>
+    <string name="due_date_cleared">Due date cleared</string>
+    <string name="all_required_fields_must_be_completed">All required fields must be completed</string>
+    <string name="goal_updated">Goal updated</string>
+    <string name="update_failed">Update failed</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="select_an_option">Select an option</string>
+    <string name="enter_a_valid_amount">Enter a valid amount</string>
+    <string name="invalid_amount_entered">Invalid amount entered</string>
+    <string name="select_a_valid_interval">Select a valid interval</string>
+    <string name="transaction_updated">Transaction updated</string>
+    <string name="you_need_to_create_a_financial_account_first">You need to create a financial account first</string>
+    <string name="select_a_valid_amount">Select a valid amount</string>
+    <string name="select_a_valid_type">Select a valid type</string>
+    <string name="select_a_valid_category">Select a valid category</string>
+    <string name="select_a_date_and_a_time">Select a date and a time</string>
+    <string name="transaction_saved">Transaction saved</string>
+    <string name="transaction_failed">Transaction failed</string>
+    <string name="transaction_not_found">Transaction not found</string>
+    <string name="choose_an_action">Choose an action</string>
+    <string name="delete_subscription">Delete subscription</string>
+    <string name="deleting_this_subscription_will_">Deleting this subscription will also delete all of its related transactions. Do you want to proceed?</string>
+    <string name="subscription_and_its_sub_subscriptions_were_deleted">Subscription and its sub-transactions were deleted</string>
+    <string name="failed_to_delete_subscription">Failed to delete subscription</string>
+    <string name="transaction_deleted">Transaction deleted</string>
+    <string name="failed_to_delete_transaction">Failed to delete transaction</string>
+    <string name="username">Username</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="microphone_permission_not_granted">Microphone permission not granted</string>
+    <string name="edit_account">Edit Account</string>
+</resources>

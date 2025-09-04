@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15sp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/transactionAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:text="Amount" />
+
+    <TextView
+        android:id="@+id/transactionAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:text="Account" />
+
+    <TextView
+        android:id="@+id/transactionCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:text="Card" />
+
+    <TextView
+        android:id="@+id/transactionType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:text="Type" />
+
+    <TextView
+        android:id="@+id/transactionCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:text="Category" />
+
+    <TextView
+        android:id="@+id/transactionDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:text="Description" />
+
+    <TextView
+        android:id="@+id/transactionDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/transactionSubscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:text="Subscription"
+        android:visibility="gone" />
+</LinearLayout>
+

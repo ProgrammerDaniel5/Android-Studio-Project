@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background"
+    tools:context=".AddAccountActivity">
+
+    <Button
+        android:id="@+id/addAccountReturnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/return_button"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_marginEnd="5dp" />
+
+    <EditText
+        android:id="@+id/editAccountName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:singleLine="true"
+        android:maxLength="50"
+        android:hint="@string/account_name"
+        android:textColorHint="@color/grey" />
+
+    <Spinner
+        android:id="@+id/accountTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp" />
+
+    <EditText
+        android:id="@+id/editCustomAccountType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Enter custom account type"
+        android:singleLine="true"
+        android:maxLength="50"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editAccountBank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="@color/white"
+        android:singleLine="true"
+        android:maxLength="70"
+        android:hint="@string/bank_organization"
+        android:textColorHint="@color/grey" />
+
+    <Button
+        android:id="@+id/saveAccountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/submit_button"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black" />
+</LinearLayout>

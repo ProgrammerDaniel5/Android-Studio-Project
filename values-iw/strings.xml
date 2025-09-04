@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZrimaFinanceIt</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">ברוך הבא</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="select_account_prompt">בחר/י חשבון</string>
+    <string name="select_card_prompt">בחר/י כרטיס</string>
+    <string name="select_type_prompt">בחר/י סוג</string>
+    <string name="contact_me_message">הודעה:</string>
+    <string name="return_button">לחזור</string>
+    <string name="profile">פרופיל</string>
+    <string name="username_profile">שם משתמש:</string>
+    <string name="first_name_profile">שם פרטי:</string>
+    <string name="last_name_profile">שם משפחה:</string>
+    <string name="birth_date_profile">תאריך לידה:</string>
+    <string name="card_number">מספר כרטיס</string>
+    <string name="select_card_expiration_date">בחר/י תאריך תפוגה של הכרטיס</string>
+    <string name="submit_button">שמור</string>
+    <string name="goals_tracker">יעדים</string>
+    <string name="add_an_account">להוסיף חשבון</string>
+    <string name="create_a_new_goal">ליצור יעד חדש</string>
+    <string name="reports">דוחות</string>
+    <string name="add_a_transaction">להוסיף עסקה</string>
+    <string name="settings">הגדרות</string>
+    <string name="account_name">שם החשבון</string>
+    <string name="account_type">סוג החשבון</string>
+    <string name="select_month_and_year">בחר/י חודש ושנה</string>
+    <string name="transaction_amount">סכום העסקה</string>
+    <string name="transaction_category">קטגוריית העסקה</string>
+    <string name="transaction_date_and_time">תאריך וזמן העסקה</string>
+    <string name="cards">כרטיסים</string>
+    <string name="add_a_card">להוסיף כרטיס</string>
+    <string-array name="time_filters">
+        <item>כל הזמן</item>
+        <item>היום</item>
+        <item>השבוע</item>
+        <item>החודש</item>
+        <item>השנה</item>
+    </string-array>
+    <string-array name="transaction_filters">
+        <item>הכל</item>
+        <item>הוצאות</item>
+        <item>הכנסות</item>
+        <item>מנויים ראשיים</item>
+    </string-array>
+
+    <string-array name="filter_modes">
+        <item>סכום</item>
+        <item>כמות</item>
+    </string-array>
+    <string-array name="chart_types">
+        <item>עמודות</item>
+        <item>עוגה</item>
+        <item>נקודות-לינארי</item>
+    </string-array>
+    <string name="sort_by_title">מייו לפי</string>
+    <string-array name="sort_options">
+        <item>סכום (מהגבוה לנמוך)</item>
+        <item>סכום (מהנמוך לגבוה)</item>
+        <item>תאריך (החדש ביותר)</item>
+        <item>תאריך (הישן ביותר)</item>
+    </string-array>
+
+
+    <string name="select_interval_prompt">בחר פרק זמן (יומי, שבועי, כדומה)</string>
+    <string name="contact_me_topic">נושא</string>
+    <string name="first_name_required">First Name (Required)</string>
+    <string name="last_name_optional">Last Name (Optional)</string>
+    <string name="birth_date_required">Birth Date (Required)</string>
+    <string name="username_required">Username (Required)</string>
+    <string name="password_required">Password (Required)</string>
+    <string name="sign_up">להירשם</string>
+    <string name="password">סיסמה</string>
+    <string name="username">שם משתמש</string>
+    <string name="sign_in">להיכנס</string>
+    <string name="edit_profile">ערוך פרופיל</string>
+    <string name="enter_first_name">הכנס שם פרטי</string>
+    <string name="save">שמור</string>
+    <string name="enter_last_name">הכנס שם משפחה</string>
+    <string name="change_password">לשנות סיסמה</string>
+    <string name="current_password">סיסמה נוכחית</string>
+    <string name="new_password">סיסמה חדשה</string>
+    <string name="confirm_new_password">אישור סיסמה חדשה</string>
+    <string name="select_language">בחר שפה:</string>
+    <string name="first_name_required_edit">שם פרטי (חייב)</string>
+    <string name="last_name_optional_edit">שם משפחה (אופציונלי)</string>
+    <string name="bar_chart">גרף עמודות</string>
+    <string name="pie_chart">גרף עוגה</string>
+    <string name="dot_chart">גרף נקודות-לינארי</string>
+    <string name="sort_transactions">מיון עסקאות</string>
+    <string name="remember_me">זכור אותי</string>
+    <string name="select_category_prompt">לבחור קטגוריה</string>
+    <string name="accounts">חשבונות</string>
+    <string name="logout">יציאה</string>
+    <string name="contact_me">צור קשר</string>
+    <string name="credit">קרדיט</string>
+    <string name="guide">מדריך</string>
+    <string name="new_goal">יעד חדש</string>
+    <string name="goal_name">שם היעד</string>
+    <string name="target_amount">כמות היעד</string>
+    <string name="goal_description_optional">תיאור היעד (אופציונלי)</string>
+    <string name="due_date_optional">תאריך להשלמה (אופציונלי)</string>
+    <string name="record_voice_note">הקלט הערה קולית</string>
+    <string name="save_goal">לשמור את היעד</string>
+    <string name="apply_filters">להפעיל מסננים</string>
+    <string name="are_you_sure_you_want_to_log_out">האם את/ה בטוח שאת/ה רוצה לצאת?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="logged_out_successfully">יצאת בהצלחה</string>
+    <string name="balance">יתרה</string>
+    <string name="first_name_updated_successfully">שם פרטי שונה בהצלחה</string>
+    <string name="error_updating_first_name">שגיאה בשינוי שם פרטי</string>
+    <string name="last_name_updated_successfully">שם משפחה שונה בהצלחה</string>
+    <string name="error_updating_last_name">שגיאה בשינוי שם משפחה</string>
+    <string name="income">הכנסות:</string>
+    <string name="expenses">הוצאות:</string>
+    <string name="first_name_cannot_be_empty">שם פרטי לא יכול להיות ריק</string>
+    <string name="optional_description">תיאור אופציונלי:</string>
+    <string name="new_transaction">עסקה חדשה</string>
+    <string name="regular_payment_subscription">תשלום חוזר/מנוי</string>
+    <string name="bank_organization">בנק/ארגון</string>
+    <string name="stop_recording">הפסק הקלטה</string>
+    <string name="unable_to_access_storage">לא ניתן לגשת לאחסון</string>
+    <string name="recording_failed">ההקלטה נכשלה</string>
+    <string name="please_fill_all_required_fields">אנא מלא את כל השדות הדרושים</string>
+    <string name="invalid_amount">סכום לא תקין</string>
+    <string name="goal_saved_successfully">המטרה נשמרה בהצלחה</string>
+    <string name="failed_to_save_the_goal">שמירת המטרה נכשלה</string>
+    <string name="account">חשבון</string>
+    <string name="card">כרטיס</string>
+    <string name="type">סוג</string>
+    <string name="category">קטגוריה</string>
+    <string name="amount">סכום</string>
+    <string name="date">תאריך</string>
+    <string name="description">תיאור</string>
+    <string name="subscription">מנוי</string>
+    <string name="failed_to_delete_voice_note_file">שגיאה במחיקת קובץ הערת קול</string>
+    <string name="failed_to_delete_goal">שגיאה במחיקת יעד</string>
+    <string name="goal">יעד</string>
+    <string name="deleted">נמחק</string>
+    <string name="goal_editing">עריכת יעד</string>
+    <string name="due_date_cleared">תאריך היעד נמחק</string>
+    <string name="all_required_fields_must_be_completed">כל השדות הנדרשים חייבים להיות מלאים</string>
+    <string name="goal_updated">יעד עודכן</string>
+    <string name="update_failed">העדכון נכשל</string>
+    <string name="cancel">ביטול</string>
+    <string name="update">עדכון</string>
+    <string name="select_an_option">בחר אפשרות</string>
+    <string name="enter_a_valid_amount">הזן סכום חוקי</string>
+    <string name="invalid_amount_entered">הוזן סכום לא חוקי</string>
+    <string name="select_a_valid_interval">בחר מרווח זמן חוקי</string>
+    <string name="transaction_updated">העסקה עודכנה</string>
+    <string name="you_need_to_create_a_financial_account_first">תחילה עליך ליצור חשבון פיננסי</string>
+    <string name="select_a_valid_amount">בחר סכום חוקי</string>
+    <string name="select_a_valid_type">בחר סוג חוקי</string>
+    <string name="select_a_valid_category">בחר קטגוריה חוקית</string>
+    <string name="select_a_date_and_a_time">בחר תאריך ושעה</string>
+    <string name="transaction_saved">העסקה נשמרה</string>
+    <string name="transaction_failed">העסקה נכשלה</string>
+    <string name="transaction_not_found">העסקה לא נמצאה</string>
+    <string name="choose_an_action">בחר פעולה</string>
+    <string name="delete_subscription">מחק מנוי</string>
+    <string name="deleting_this_subscription_will_">מחיקת מנוי זה תמחק גם את כל העסקאות הקשורות אליו. האם אתה רוצה להמשיך?</string>
+    <string name="subscription_and_its_sub_subscriptions_were_deleted">המנוי וכל תת-העסקאות שלו נמחקו</string>
+    <string name="failed_to_delete_subscription">מחיקת המנוי נכשלה</string>
+    <string name="transaction_deleted">העסקה נמחקה</string>
+    <string name="failed_to_delete_transaction">מחיקת העסקה נכשלה</string>
+    <string name="first_name">שם פרטי</string>
+    <string name="last_name">שם משפחה</string>
+    <string name="birthdate">תאריך לידה</string>
+    <string name="microphone_permission_not_granted">הרשאת המיקרופון לא ניתנה</string>
+    <string name="edit_account">לערוך את החשבון</string>
+</resources>
